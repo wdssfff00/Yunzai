@@ -33,7 +33,7 @@
     "node-fetch": "link:lib/modules/node-fetch",
     "node-schedule": "^2.1.1",
     "oicq": "link:lib/modules/oicq",
-    "pm2": "^7.0.1",
+    "pm2": "^7.0.3",
     "puppeteer": "*",
     "redis": "^4.7.1",
     "sequelize": "^6.37.8",
@@ -44,7 +44,7 @@
     "yaml": "^2.9.0"
   },
   "devDependencies": {
-    "prettier": "^3.8.5"
+    "prettier": "^3.9.4"
   },
   "imports": {
     "#miao": "./plugins/miao-plugin/components/index.js",
