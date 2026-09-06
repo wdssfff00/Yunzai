@@ -16,8 +16,9 @@
     "lint": "git ls-files '*.js'|xargs prettier --write --list-different"
   },
   "dependencies": {
-    "@shotkit/shotium": "^0.3.3",
+    "@shotkit/shotium": "^0.3.4",
     "art-template": "4.13.2",
+    "body-parser": "^2.3.0",
     "chalk": "^6.0.0",
     "chokidar": "^5.0.0",
     "compression": "^1.8.1",
@@ -38,7 +39,7 @@
     "puppeteer": "*",
     "redis": "^4.7.1",
     "sequelize": "^6.37.8",
-    "sqlite3": "npm:@karinjs/sqlite3@^0.4.3",
+    "sqlite3": "npm:@karinjs/sqlite3@^6.0.2",
     "strip-ansi": "^7.2.0",
     "ulid": "^3.0.2",
     "ws": "^8.21.3",
